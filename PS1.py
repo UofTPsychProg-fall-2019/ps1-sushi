@@ -13,7 +13,7 @@ Problem Set 1
 # first group member (coder 1), your job is to first correct it 
 # and make a new variable with an error for the next group member to fix
 # after competign both steps, commit and push your changes to GitHub
-coder1 = 'hello world! python line " + 1 
+coder1 = 'hello world! python line' + '1'
 print(coder1)
 
 # second group member's error to fix
