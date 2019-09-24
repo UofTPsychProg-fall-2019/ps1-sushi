@@ -39,7 +39,7 @@ rt = [400, 450, 500, 440, -1, 410, 570]
 missing_rt = rt[4]
 
 # and then use missing_rt to remove the trial from rt
-clean_rt =
+clean_rt = del(rt[missing_rt])
 
 
 # now you have data with more than one missing value
