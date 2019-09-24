@@ -13,15 +13,16 @@ Problem Set 1
 # first group member (coder 1), your job is to first correct it 
 # and make a new variable with an error for the next group member to fix
 # after competign both steps, commit and push your changes to GitHub
-coder1 = 'hello world! python line " + 1 
+coder1 = 'hello world! python line' + '1' 
 print(coder1)
 
 # second group member's error to fix
-coder2 =
+coder2 = ['apple','banana', 'orange', 'pear')
 
 # now the second group member should define a variable with an error
 # and then commit and push changes to GitHub
-coder3 =
+coder3 = 1.2 + '3.4'
+print(coder3)
 
 # etc. until all group members have fixed and made 1 error
 
