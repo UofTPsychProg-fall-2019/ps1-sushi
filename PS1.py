@@ -45,8 +45,14 @@ clean_rt = del(rt[missing_rt])
 # now you have data with more than one missing value
 rt_trouble = [400, 450, 500, 440, -1, 410, 570, -1, 400]
 
+
 # try the same procedure. Does it work? 
 # use a comment to explain why or why not below in comments
+
+missing_rt = rt_trouble[4,6]
+clean_rt = del(rt[missing_rt])
+
+# did not work as you can't index more than one integer. TypeError: list indices must be integers or slices, not tuple.
 
 
 
