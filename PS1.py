@@ -36,7 +36,7 @@ rt = [400, 450, 500, 440, -1, 410, 570]
 
 # the -1 indicates missing data. Your job is to remove it
 # use the index method to find the missing value 
-missing_rt =
+missing_rt = rt[4]
 
 # and then use missing_rt to remove the trial from rt
 clean_rt =
