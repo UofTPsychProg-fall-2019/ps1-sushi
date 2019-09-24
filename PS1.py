@@ -13,7 +13,7 @@ Problem Set 1
 # first group member (coder 1), your job is to first correct it 
 # and make a new variable with an error for the next group member to fix
 # after competign both steps, commit and push your changes to GitHub
-coder1 = 'hello world! python line' + '1' 
+coder1 = 'hello world! python line' + '1' # Simar
 print(coder1)
 
 # second group member's error to fix
@@ -25,7 +25,7 @@ coder3 = 1.2 + 3.4 # Moaz
 print(coder3)
 
 # etc. until all group members have fixed and made 1 error
-coder4 = 1 + 1.2 + '20' + '1.2'
+coder4 = 1 + 1.2 + 20 + 1.2 # Lauren
 print(coder4)
 
 
