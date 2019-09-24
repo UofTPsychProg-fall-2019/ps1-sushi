@@ -50,7 +50,7 @@ rt_trouble = [400, 450, 500, 440, -1, 410, 570, -1, 400]
 # use a comment to explain why or why not below in comments
 
 missing_rt = rt_trouble[4,6]
-clean_rt = del(rt[missing_rt])
+clean_rt = del(rt_trouble[missing_rt])
 
 # did not work as you can't index more than one integer. TypeError: list indices must be integers or slices, not tuple.
 
