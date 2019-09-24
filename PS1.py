@@ -21,11 +21,12 @@ coder2 = ['apple','banana', 'orange', 'pear']  # Annie
 
 # now the second group member should define a variable with an error
 # and then commit and push changes to GitHub
-coder3 = 1.2 + '3.4'
+coder3 = 1.2 + 3.4 # Moaz
 print(coder3)
 
 # etc. until all group members have fixed and made 1 error
-
+coder4 = 1 + 1.2 + '20' + '1.2'
+print(coder4)
 
 
 #%%  Part 2  find and remove the invalid response______________________________
