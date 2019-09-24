@@ -17,7 +17,7 @@ coder1 = 'hello world! python line' + '1'
 print(coder1)
 
 # second group member's error to fix
-coder2 = ['apple','banana', 'orange', 'pear')
+coder2 = ['apple','banana', 'orange', 'pear']  # Annie
 
 # now the second group member should define a variable with an error
 # and then commit and push changes to GitHub
