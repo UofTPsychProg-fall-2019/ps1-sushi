@@ -80,3 +80,11 @@ data = [rt_new, trial_num, accuracy]
 # be sure to only work with the master data list, to practice indexing 
 # lists of lists
 
+for element in data[0]:
+  if element < 0:
+    to_delete = data[0].index(element)
+    del(data[0][to_delete])
+del(data[1][to_delete])
+del(data[2][to_delete])
+print(data)
+
